@@ -67,11 +67,19 @@ body {
 #page2 .elem {
   height: 100%;
   width: 31%;
-  background-color: red;
+  /*background-color: red;*/
+  overflow: hidden;
 }
 
 #page2 .elem img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  scale: 1.1;
+}
+
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
 }
