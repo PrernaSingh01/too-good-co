@@ -52,6 +52,7 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 #video-container #play {
@@ -64,7 +65,7 @@ body {
   font-family: futura;
   border-radius: 50%;
   opacity: 0;
-  scale: 0;
+  transform: translate(-50%, -50%) scale(0);
 }
 
 #page2 {
