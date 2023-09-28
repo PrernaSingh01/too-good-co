@@ -26,12 +26,22 @@ body {
   padding: 25px;
 }
 
+#nav-part1 {
+  height: 82px;
+  overflow: hidden;
+}
+
+#nav-part1 svg {
+  display: block;
+}
+
 #nav #nav-part2 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
 }
+
 #links {
   padding: 10px;
 }
@@ -42,15 +52,19 @@ body {
   color: #333;
   font-weight: 500;
   font-size: 14px;
-  margin-right: 30px;
+  margin: 0 20px;
+}
+
+#icons {
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #f7f7f7;
 }
 
 #nav-part2 #icons i {
   font-size: 18px;
-  margin-right: 50px;
+  margin: 0 20px;
   font-weight: 100;
-}
-#icons {
 }
 
 #cursor {

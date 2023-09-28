@@ -1,8 +1,3 @@
-const scroll = new LocomotiveScroll({
-  el: document.querySelector("#main"),
-  smooth: true,
-});
-
 function videoconAnimation() {
   var videocon = document.querySelector("#video-container");
   var playbtn = document.querySelector("#play");
@@ -47,7 +42,15 @@ function loadinganimation() {
 }
 loadinganimation();
 
-/*document.querySelector("#child1").addEventListener("mouseenter", function () {
+function cursorAnimation() {
+  document.addEventListener("mousemove", function (dets) {
+    gsap.to("#cursor", {
+      left: dets.x,
+      top: dets.y,
+    });
+  });
+
+  /*document.querySelector("#child1").addEventListener("mouseenter", function () {
   gsap.to("#cursor", {
     transform: "translate(-50%, -50%) scale(1)",
   });
@@ -58,14 +61,6 @@ document.querySelector("#child1").addEventListener("mouseleave", function () {
     transform: "translate(-50%, -50%) scale(0)",
   });
 });*/
-
-function cursor() {
-  document.addEventListener("mousemove", function (dets) {
-    gsap.to("#cursor", {
-      left: dets.x,
-      top: dets.y,
-    });
-  });
 
   document.querySelectorAll(".child").forEach(function (elem) {
     elem.addEventListener("mouseenter", function () {
@@ -80,4 +75,4 @@ function cursor() {
     });
   });
 }
-cursor();
+cursorAnimaion();
