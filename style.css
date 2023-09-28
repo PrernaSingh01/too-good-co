@@ -16,9 +16,9 @@ body {
 }
 
 #cursor {
-  height: 150px;
-  width: 150px;
-  background-color: aqua;
+  height: 180px;
+  width: 180px;
+  background-color: rgb(140, 140, 140);
   border-radius: 50%;
   position: fixed;
   transform: translate(-50%, -50%) scale(0);
