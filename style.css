@@ -21,7 +21,6 @@ body {
   background-color: aqua;
   border-radius: 50%;
   position: fixed;
-  transform: scale(0);
 }
 
 #page1 {
