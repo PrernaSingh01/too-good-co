@@ -94,7 +94,7 @@ function loadinganimation() {
   gsap.from("#page1 h1", {
     y: 100,
     opacity: 0,
-    delay: 0.5,
+    delay: 0.3,
     duration: 0.9,
     stagger: 0.3,
   });
@@ -104,6 +104,13 @@ function loadinganimation() {
     opacity: 0,
     delay: 1.3,
     duration: 0.5,
+  });
+  gsap.from("#nav-part1 #twogood", {
+    y: 100,
+    opacity: 0,
+    delay: 0.2,
+    duration: 0.8,
+    stagger: 0.2,
   });
 }
 loadinganimation();
