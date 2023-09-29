@@ -55,6 +55,30 @@ body {
   margin: 0 20px;
 }
 
+#nav-part2 #links a:hover {
+  display: inline-block;
+  position: relative;
+  color: #c9c4c4;
+}
+
+#nav-part2 #links a:after {
+  content: "";
+  position: absolute;
+  background-color: #171717;
+  width: 0;
+  height: 1px;
+  bottom: -10px;
+  left: 0;
+  margin-bottom: 10px;
+}
+
+#nav-part2 #links a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  width: 100%;
+  transition: 0.3s;
+}
+
 #icons {
   padding: 10px;
   border-radius: 50px;
