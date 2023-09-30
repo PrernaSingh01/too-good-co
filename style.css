@@ -294,7 +294,7 @@ body {
     display: flex;
     align-items: center;
     padding: 5vw 3vw;
-    flex-direction: column..
+    flex-direction: column;
     justify-content: space-between;
   }
 
