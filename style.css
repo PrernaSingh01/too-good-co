@@ -147,13 +147,19 @@ body {
 
 #hr {
   margin-top: 50px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 15px;
+  margin-right: 15px;
   height: 1px;
   background-color: #030303;
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+}
+
+#hr i {
+  padding: 3px;
+  font-size: 13px;
+  font-style: normal;
+  color: #333;
 }
 
 #page2 {
@@ -193,9 +199,9 @@ body {
   background-color: palegoldenrod;
 }
 
-/*#page2 .elem .dets:hover {
+#page2 .elem .dets:hover {
   height: 200px;
-}*/
+}
 
 #page3 {
   min-height: 120vh;
