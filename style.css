@@ -83,6 +83,7 @@ body {
   padding: 10px;
   border-radius: 50px;
   background-color: #f7f7f7;
+  cursor: pointer;
 }
 
 #nav-part2 #icons i {
