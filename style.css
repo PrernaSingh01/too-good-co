@@ -210,9 +210,12 @@ body {
   margin: 0 10px;
   cursor: pointer;
 }
+.right-option {
+  font-size: 40px;
+}
 
 #page2 .elem:hover .dets {
-  height: 200px;
+  height: 150px;
   opacity: 1;
   cursor: pointer;
   animation-name: fadeIn;
@@ -226,6 +229,42 @@ body {
   to {
     opacity: 1;
   }
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  color: black;
+}
+
+.left-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right-content {
+  flex: 1;
+  text-align: right;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 150px;
+  font-family: "Young Serif", serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+i {
+  display: block;
+  font-style: italic;
+  margin-top: 10px;
 }
 
 #page3 {
@@ -242,6 +281,7 @@ body {
   height: 54vh;
   width: 38vw;
   /*background-color: red;*/
+  cursor: pointer;
   position: relative;
   display: flex;
   align-items: center;
