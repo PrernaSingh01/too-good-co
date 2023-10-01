@@ -201,6 +201,7 @@ body {
 
 #page2 .elem .dets:hover {
   height: 200px;
+  cursor: pointer;
 }
 
 #page3 {
