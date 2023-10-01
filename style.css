@@ -175,7 +175,6 @@ body {
 #page2 .elem {
   height: 100%;
   width: 31%;
-  /*background-color: red;*/
   overflow: hidden;
   position: relative;
   display: flex;
@@ -191,17 +190,42 @@ body {
 }
 
 #page2 .elem .dets {
-  height: 60px;
+  height: 0;
+  overflow: hidden;
   border-radius: 50px;
   width: 70%;
   position: absolute;
   z-index: 9;
   background-color: palegoldenrod;
+  transition: height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#page2 .elem .dets:hover {
-  height: 200px;
+.left-option,
+.right-option {
+  font-size: 24px;
+  margin: 0 10px;
   cursor: pointer;
+}
+
+#page2 .elem:hover .dets {
+  height: 200px;
+  opacity: 1;
+  cursor: pointer;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #page3 {
