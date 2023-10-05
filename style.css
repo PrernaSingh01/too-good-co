@@ -521,24 +521,34 @@ h5 {
 }
 
 h6 {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 0.9;
   margin-top: 250px;
   font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
   font-weight: 700;
   margin-bottom: 16px;
-  color: #333;
+  color: #868686;
 }
 #elem7 a {
   color: #000000;
   font-size: 15px;
   text-decoration: none;
 }
+#elem7 a:hover {
+  color: #c9c4c4;
+}
 
+.h6 {
+  margin-left: 250px;
+}
 #elem9 a {
   color: #000000;
   font-size: 15px;
   text-decoration: none;
+  margin-left: 290px;
+}
+#elem9 a:hover {
+  color: #c9c4c4;
 }
 
 @media (max-width: 600px) {
