@@ -510,23 +510,35 @@ h5 {
 #page6 .elems {
   height: 100%;
   width: 30%;
-  background-color: red;
+  /*background-color: red;*/
 }
 #page6 .elems img {
   height: 50%;
   width: 100%;
   object-fit: cover;
   scale: 1;
-  margin-top: 30px;
+  margin-top: 170px;
 }
 
 h6 {
   font-size: 18px;
   line-height: 0.9;
-  margin-top: 80px;
+  margin-top: 250px;
   font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
   font-weight: 700;
   margin-bottom: 16px;
+  color: #333;
+}
+#elem7 a {
+  color: #000000;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#elem9 a {
+  color: #000000;
+  font-size: 15px;
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {
