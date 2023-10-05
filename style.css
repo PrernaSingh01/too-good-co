@@ -507,6 +507,27 @@ h5 {
   padding: 3vw 5vw;
   justify-content: space-between;
 }
+#page6 .elems {
+  height: 100%;
+  width: 30%;
+  background-color: red;
+}
+#page6 .elems img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  scale: 1;
+  margin-top: 30px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 0.9;
+  margin-top: 80px;
+  font-family: "Futura Now Headline", "Lucida Sans", Tahoma, sans-serif;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
 
 @media (max-width: 600px) {
   #nav {
