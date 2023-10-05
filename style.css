@@ -244,7 +244,7 @@ body {
 }
 
 .left-content {
-  flex: 1;
+  flex: 2;
   padding-right: 20px;
 }
 
@@ -387,6 +387,9 @@ h5 {
   margin-bottom: 20px;
   cursor: pointer;
 }
+.btn:hover {
+  color: #a4a2a2;
+}
 
 .text {
   font-size: 16px;
@@ -394,6 +397,10 @@ h5 {
   margin-top: 40px;
   transform: translate(-45%, -50%);
   margin-bottom: 200px;
+  margin-left: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 #page5 {
@@ -436,8 +443,6 @@ h5 {
 .howw {
   font-family: "ABC Social Mono", "Lucida Sans", Tahoma, nonospaced;
   font-weight: 500;
-  -webkit-text-decoration: none;
-  text-decoration: none;
   position: relative;
   padding-bottom: 8px;
   text-transform: uppercase;
@@ -446,6 +451,51 @@ h5 {
   color: black;
   text-decoration: underline;
   line-height: 1.2;
+}
+.howw:hover {
+  text-decoration: none;
+  color: #c9c4c4;
+  display: inline-block;
+  position: relative;
+}
+.howw:after {
+  content: "";
+  position: absolute;
+  background-color: #171717;
+  width: 0;
+  height: 1px;
+  bottom: -10px;
+  left: 0;
+  margin-bottom: 10px;
+}
+.howw:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  width: 100%;
+  transition: 0.6s;
+}
+
+#bottom {
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#bottom .mail {
+  height: 8vh;
+  width: 100%;
+  border: none;
+  background-color: #f7f7f7;
+  font-size: 300%;
+  font-weight: 1000;
+}
+
+#hr-bottom {
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 1px;
+  background-color: #030303;
+  display: flex;
 }
 
 @media (max-width: 600px) {
