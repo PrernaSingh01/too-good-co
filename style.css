@@ -745,12 +745,13 @@ footer {
     display: block;
     justify-content: center;
     text-align: center;
-    padding: 30px;
-    color: black;
   }
 
   h2 {
     font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
   }
 
   p {
@@ -761,30 +762,8 @@ footer {
   }
 
   a.go21 {
+    display: block;
+    justify-content: center;
     text-align: center;
-  }
-
-  a.go21:hover {
-    display: inline-block;
-    position: relative;
-    color: #c9c4c4;
-  }
-
-  a.go21:after {
-    content: "";
-    position: absolute;
-    background-color: #171717;
-    width: 0;
-    height: 1px;
-    bottom: -10px;
-    left: 0;
-    margin-bottom: 10px;
-  }
-
-  a.go21:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-    width: 100%;
-    transition: 0.3s;
   }
 }
