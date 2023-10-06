@@ -567,12 +567,22 @@ h6 {
 
 footer {
   padding: 10px;
+  font-size: 15px;
 }
 
 .centered-footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.centered-footer .copy {
+  color: #333;
+  font-size: 15px;
+}
+
+.centered-footer .copy:hover {
+  color: #868686;
 }
 
 .centered-footer p {
@@ -596,6 +606,9 @@ footer {
 .centered-footer li a {
   text-decoration: none;
   color: #333;
+}
+.centered-footer li a:hover {
+  color: #868686;
 }
 
 @media (max-width: 600px) {
@@ -726,5 +739,64 @@ footer {
 
   .child img {
     height: 100%;
+  }
+
+  #content {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: black;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+    font-family: "Young Serif", serif;
+    margin-top: 70px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: left;
+    /*margin-left: 200px;*/
+    font-weight: 300;
+  }
+
+  span.go20 {
+    display: flex;
+    margin-left: 200px;
+  }
+
+  a.go21 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a.go21:hover {
+    display: inline-block;
+    position: relative;
+    color: #c9c4c4;
+  }
+
+  a.go21:after {
+    content: "";
+    position: absolute;
+    background-color: #171717;
+    width: 0;
+    height: 1px;
+    bottom: -10px;
+    left: 0;
+    margin-bottom: 10px;
+  }
+
+  a.go21:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    width: 100%;
+    transition: 0.3s;
   }
 }
