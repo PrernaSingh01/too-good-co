@@ -565,6 +565,36 @@ h6 {
   margin-bottom: 50px;
 }
 
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 10px;
+}
+
+.centered-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-footer p {
+  margin: 0;
+  padding: 5px;
+}
+
+.centered-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-footer li {
+  margin: 0 10px;
+}
+
 @media (max-width: 600px) {
   #nav {
     width: 100%;
